@@ -1,0 +1,62 @@
+body {
+    background-image: url("../images/dota-2-bg.jpg");
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+
+}
+
+.gameTitle {
+    width: 577px;
+    background: black;
+}
+
+.jumbotron, .btn-danger{
+    text-align: center;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+#gameMessage {
+    font-size: 1.2rem;
+}
+
+#attackBtn {
+    font-weight: bold;
+}
+
+.character_name {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background: black;
+    width: 276.75px;
+}
+
+.character {
+    padding: 0;
+    width: 282.75px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border: 3px solid black;
+}
+
+.character_image {
+    width: 276.75px;
+    height: 138.5px;
+}
+
+.character_health, .hero_health, .enemy_health {
+    width: 276.75px;
+    background: green;
+    border: 2px solid white;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.fightArena {
+    margin-top: 1rem;
+}
