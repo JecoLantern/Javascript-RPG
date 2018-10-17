@@ -1,0 +1,136 @@
+body {
+    background-image: url("../images/dota-2-bg.jpg");
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+
+}
+
+.navbar {
+    padding: 0rem 3rem 0rem 3rem;
+}
+.bg-light {
+    background: #ffffff;
+    border: #cccccc;
+}
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4aaaa5;
+    color: #ffffff !important;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 0 0 0 0;
+}
+  
+.nav-item, .nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    padding: 0.625rem 0 0.625rem 1.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.gameTitle {
+    width: 577px;
+    background: black;
+}
+
+.jumbotron, .btn-danger{
+    text-align: center;
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+#gameMessage {
+    font-size: 1.2rem;
+}
+
+#attackBtn {
+    font-weight: bold;
+}
+
+.character_name {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background: black;
+    width: 276.75px;
+}
+
+.character {
+    padding: 0;
+    width: 282.75px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border: 3px solid black;
+}
+
+.character_image {
+    width: 276.75px;
+    height: 138.5px;
+}
+
+.character_health, .hero_health, .enemy_health {
+    width: 276.75px;
+    background: green;
+    border: 2px solid white;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.fightArena {
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 640px) {
+    .navbar-brand {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background: #4aaaa5;
+        color: #ffffff !important;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        padding: 1rem 1rem 1rem 1rem;
+        margin: 0 0 0 0;
+    }
+    .navbar {
+        padding: 0;
+        width: 100%;
+    }
+
+    .gameTitle {
+        max-width: 100%;
+        height: auto;
+    }
+    body {
+        max-width: 100%;
+        height: auto;
+        background-position: center;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    img.character_image, div.character_name, div.character_health, .hero_health, .enemy_health {
+        width: 74px;
+        font-size: 0.6rem;
+    }
+    div.character {
+        width: 5rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    img.character_image {
+        height: 44px;
+    }
+    #gameMessage {
+        font-size: 0.6rem;
+    }
+    .jumbotron, .btn-danger{
+        font-size: 1rem;
+    }
+
+}
